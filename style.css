@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    border-bottom: 1px solid lightgray;
+    padding:14px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0px;
+    background-color: white;
+}
+.instagram-img{
+    height: 30px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap:12px;
+}
+.links a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.login{
+    color: white;
+    background-color: rgb(47, 138, 223);
+    padding:4px 16px;
+    border-radius: 6px;
+}
+.signup{
+    color: rgb(47, 138, 223);
+    font-weight: 500;
+}
+.content{
+    width:700px;
+    display: flex;
+    justify-content: center;
+    gap:90px;
+    padding:10px;
+    margin:10px 220px;
+}
+.img-box{
+    margin-top: 50px;
+}
+.google-logo{
+    width: 150px;
+    border:1px solid lightgray;
+    border-radius: 50%;
+}
+.content1{
+    display: flex;
+    align-items: center;
+    gap:26px;
+}
+.google-content{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.buttons button{
+  border:none;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: small;
+  font-weight: 600;
+  width:80px;
+  margin:4px;
+}
+.buttons button:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.google-name{
+    font-size: large;
+}
+.verified{
+    color: rgb(59, 176, 223);
+}
+.content2{
+    display: flex;
+    align-items: center;
+    gap:42px;
+    margin:14px 0px;
+}
+.content2 a{
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  font-weight: 600;
+}
+.content3 p{
+    padding:0px;
+    margin: 0px;
+    font-size: 12px;
+    
+}
+.google-website{
+margin:18px 0px;
+text-decoration: none;
+font-size: 12px;
+color: black;
+font-weight: 600;
+padding:4px;
+background-color: rgb(238, 231, 231);
+border-radius: 10px;
+}
+.google-website:hover{
+ background-color: lightgray;
+ cursor: pointer;
+}
+.linkin{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(1, 1, 116);
+    font-weight: 500;
+}
+.google-name{
+    font-weight: 500;
+}
+.para1{
+    color: rgb(119, 114, 114);
+}
+.para2{
+    color: rgb(119, 114, 114);
+}
+.story-box{
+  width:800px;
+  display: flex;
+  align-items: center;
+  gap:50px;
+  margin: 30px 250px;
+  padding:10px
+  
+}
+.outer-div1{
+    width:84px;
+    height:84px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+
+}
+.inner-div1{
+    width: 78px;
+    height:78px;
+    border-radius: 50%;
+   background-color: skyblue;
+}
+.outer-div2{
+    width:84px;
+    height:84px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.inner-div2{
+    width: 78px;
+    height:78px;
+    border-radius: 50%;
+   background-color: rgb(48, 158, 202);
+}
+.outer-div3{
+    width:84px;
+    height:84px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.inner-div3{
+    width: 78px;
+    height:78px;
+    border-radius: 50%;
+   background-color: rgb(201, 32, 32);
+}
+.outer-div4{
+    width:84px;
+    height:84px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.inner-div4{
+    width: 78px;
+    height:78px;
+    border-radius: 50%;
+   background-color: orange;
+}
+.outer-div5{
+    width:84px;
+    height:84px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.inner-div5{
+    width: 78px;
+    height:78px;
+    border-radius: 50%;
+   background-color: rgb(41, 151, 41);
+}
+.story-box a{
+    text-decoration: none;
+    font-size: 12px;
+    color:black;
+    text-align: center;
+    font-weight: 500;
+}
+.border-line{
+    border-bottom: 1px solid lightgray;
+    width: 940px;
+    padding:10px;
+    margin: 20px 180px;
+}
+.icons{
+    width:400px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap:50px;
+    margin:0px 540px;
+}
+.icons img{
+    height: 14px;
+    margin-right: 8px;
+}
+.icons a{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  text-decoration: none;
+  color: grey;
+  letter-spacing: 1px;
+}
+.cards{
+    width:960px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:8px 200px;
+}
+.card1{
+    width:300px;
+    margin:4px 4px;
+}
+.card1 img{
+    width:100%;
+}
